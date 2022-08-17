@@ -1,0 +1,103 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    border: 5px solid forestgreen;
+    border-radius: 50px; 
+    margin: 20px 20px; 
+    height: 100%;  
+}
+
+img {
+    width: 100px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#hero {
+    background-image: url(/images/torshov.jpg);
+    background-size: cover;
+    padding: 150px 0px;
+    color: white;
+    border-radius: 55px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+}
+.hero-title {
+    background-color: #457B9D;
+    padding: 10px 15px;
+}
+.hero-desc {
+    background-color: #1D3557;
+    padding: 5px 10px;
+    display: flex;
+}
+
+/*
+2nd Section
+*/
+
+
+.activities {
+    background-color: #F1FAEE;
+    padding: 20px 20px;
+    border: 3px solid white;
+    margin-bottom: 0; 
+    text-align: center;
+
+}
+
+.pics {
+    margin-top: 0;
+
+  
+}
+.img-contain {
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-evenly;
+}
+
+.pic {
+    border-radius: 50px;
+}
+
+/*
+Third Section
+*/
+
+.person {
+    width: 200px;    
+}
+
+
+.card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /*allows space between img & text*/
+    width: 400px; /*limis the size of the card*/
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #2b2839;
+    background-color: #ddebf8;
+    border-bottom: 10px solid #d8cefe;
+   
+
+}
+
+/*.border-blue {
+    border: 1px dotted blue;
+
+}*/
+
