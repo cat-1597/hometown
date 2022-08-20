@@ -9,38 +9,49 @@ DARK BLUE: #1D3557
 */
 
 body {
-    border: 5px solid forestgreen;
-    border-radius: 50px; 
-    margin: 20px 20px; 
+    /*margin: 20px 20px; */ 
+    margin-top: 10px;
     height: 100%;  
+    width: 100%;
+    text-align: center;
 }
 
 img {
     width: 100px;
     margin-top: 50px;
-    text-align: center;
 }
 
-#hero {
-    background-image: url(/images/torshov.jpg);
+#hero {   
+    background-image: url("images/torshov.jpg");
     background-size: cover;
-    padding: 150px 0px;
-    color: white;
-    border-radius: 55px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-
+    padding: 10px 0 400px 0;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;;
 }
+    /*color: white;
+    width: 100%;
+
+    
+    /*margin-top: 50px;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;*/
+
+.container {
+    margin-top: 300px;
+}
+
 .hero-title {
     background-color: #457B9D;
-    padding: 10px 15px;
+    padding: 5px 15px;
+
 }
 .hero-desc {
-    background-color: #1D3557;
-    padding: 5px 10px;
-    display: flex;
+    background-color:  #457B9D;
+    
+    padding: 10px 10px;
+    /*display: flex;*/
 }
 
 /*
@@ -54,7 +65,12 @@ img {
     border: 3px solid white;
     margin-bottom: 0; 
     text-align: center;
+    margin-top: 0px;
 
+}
+
+.activities-title {
+    font-size: 40px;
 }
 
 .pics {
@@ -69,15 +85,17 @@ img {
 }
 
 .pic {
-    border-radius: 50px;
+    border-radius: 70px;
 }
 
 /*
 Third Section
 */
 
+/*
 .person {
-    width: 200px;    
+    width: 200px;   
+
 }
 
 
@@ -85,7 +103,8 @@ Third Section
     padding: 20px;
     display: flex;
     justify-content: space-between; /*allows space between img & text*/
-    width: 400px; /*limis the size of the card*/
+
+    /*width: 400px; /*limis the size of the card
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -99,5 +118,40 @@ Third Section
 /*.border-blue {
     border: 1px dotted blue;
 
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    border: 1px dotted blue;
+    flex: 2 1 auto; 
+    flex-basis: 100%;
+    width: 0;
+
+
 }*/
 
+.avatar {
+    width: 150px;
+    display: flex;
+}
+
+.card {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #ddebf8;
+    color: #2b2839;
+    border-bottom: 6px solid #d8cefe;
+    
+}
+
+.border-blue {
+    margin-top: 30px; /*this allowed image and text to*/
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
